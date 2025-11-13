@@ -17,7 +17,7 @@ namespace DinoGame
 
         private List<Cactus> cactuses = new();
         private float cactusSpawnTimer = 0f;
-        private float points = 0f; // fiz uma pontucao pelo tempo jogado, pra poder mudar o cenario d dia pra noite
+        private float points = 0f; // fiz uma pontucao pelo tempo jogado, pra poder mudar o cenario d dia pra noite57
         private bool isNight = false;
 
         public DinoGame(GameWindowSettings gws, NativeWindowSettings nws)
